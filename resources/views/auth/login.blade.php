@@ -19,7 +19,7 @@
 					{!! Form::control('text', 6, 'log', $errors, trans('front/login.log')) !!}
 					{!! Form::control('password', 6, 'password', $errors, trans('front/login.password')) !!}
 					{!! Form::submit(trans('front/form.send'), ['col-lg-12']) !!}
-					{!! Form::check('memory', trans('front/login.remind')) !!}
+				<!-- 	{!! Form::check('memory', trans('front/login.remind')) !!}  --><!-- Remember me -->
 					{!! Form::text('address', '', ['class' => 'hpet']) !!}		  
 					<div class="col-lg-12">					
 						{!! link_to('password/email', trans('front/login.forget')) !!}
@@ -29,13 +29,6 @@
 				
 				{!! Form::close() !!}
 
-				<div class="text-center">
-					<hr>
-						<h2 class="intro-text text-center">{{ trans('front/login.register') }}</h2>
-					<hr>	
-					<p>{{ trans('front/login.register-info') }}</p>
-					{!! link_to('auth/register', trans('front/login.registering'), ['class' => 'btn btn-default']) !!}
-				</div>
 
 			</div>
 		</div>

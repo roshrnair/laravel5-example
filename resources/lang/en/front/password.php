@@ -1,8 +1,8 @@
 <?php
 
 return [
-	'title' => 'Password forgotten',
-	'info'  => 'You have forgotten your password, dont mind ! You can create a new one. But for your own security we want to be sure of your identity. So send us your email by filling this form. You will get a message with instruction to create your new password.',
+	'title' => 'Forgot Password',
+	'info'  => 'Fill your email and submit to get the instructions to reset your password.',
 	'email' => 'Your email',
 	'title-reset' => 'Password creation',
 	'reset-info' => 'To create a new password please fill this form :',

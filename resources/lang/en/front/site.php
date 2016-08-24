@@ -1,14 +1,14 @@
 <?php
 
 return [
-	'title' => 'Laravel 5',
-	'sub-title' => 'An awesome PHP framework',
+	'title' => 'Yukti - EM',
+	'sub-title' => 'Manage Your Employees Seamlessly',
 	'home' => 'Home',
-	'contact' => 'Contact',
+	'contact' => 'Contact Us',
 	'blog' => 'Blog',
 	'register' => 'Register',
-	'forget-password' => 'Forgotten password',
-	'connection' => 'Connection',
+	'forget-password' => 'Forgot Password',
+	'connection' => 'Login',
 	'administration' => 'Administration',
 	'redaction' => 'Redaction',
 	'logout' => 'Logout'
