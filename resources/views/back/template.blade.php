@@ -64,7 +64,7 @@
                     </ul>
                 </li>
             </ul>
-            <!-- Menu de la barre latérale -->
+            <!-- Menu Contents -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     @if(session('statut') == 'admin')
@@ -82,20 +82,7 @@
                         <li {!! classActivePath('contact') !!}>
                             <a href="{!! url('contact') !!}"><span class="fa fa-fw fa-envelope"></span> {{ trans('back/admin.messages') }}</a>
                         </li>  
-                        <li {!! classActivePath('comment') !!}>
-                            <a href="{!! url('comment') !!}"><span class="fa fa-fw fa-comments"></span> {{ trans('back/admin.comments') }}</a>
-                        </li> 
                     @endif                  
-                    <li {!! classActivePath('medias') !!}>
-                        <a href="{!! route('medias') !!}"><span class="fa fa-fw fa-file-image-o"></span> {{ trans('back/admin.medias') }}</a>
-                    </li>
-                    <li {!! classActiveSegment(1, 'blog') !!}>
-                        <a href="#" data-toggle="collapse" data-target="#articlemenu"><span class="fa fa-fw fa-pencil"></span> {{ trans('back/admin.posts') }} <span class="fa fa-fw fa-caret-down"></a>
-                        <ul id="articlemenu" class="collapse">
-                            <li><a href="{!! url('blog') !!}">{{ trans('back/admin.see-all') }}</a></li>
-                            <li><a href="{!! url('blog/create') !!}">{{ trans('back/admin.add') }}</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

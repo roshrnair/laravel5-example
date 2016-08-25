@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'dashboard' => 'Roles gestion',
+	'dashboard' => 'Roles Management',
 	'roles' => 'Roles',
 	'admin' => 'Title for administrators',
 	'redac' => 'Title fro redactors',
