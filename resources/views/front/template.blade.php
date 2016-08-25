@@ -84,10 +84,6 @@
 									<li>
 										{!! link_to_route('admin', trans('front/site.administration')) !!}
 									</li>
-								@elseif(session('statut') == 'redac') 
-									<li>
-										{!! link_to('blog', trans('front/site.redaction')) !!}
-									</li>
 								@endif
 								<li>
 									{!! link_to('auth/logout', trans('front/site.logout')) !!}

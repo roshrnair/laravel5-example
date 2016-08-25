@@ -3,7 +3,7 @@
 return [
 	'administration' => 'Administration',
 	'redaction' => 'Redaction',
-	'home' => 'Back on site',
+	'home' => 'Home',
 	'logout' => 'Logout',
 	'dashboard' => 'Dashboard',
 	'users' => 'users',
@@ -11,7 +11,7 @@ return [
 	'add' => 'Add',
 	'messages' => 'Messages',
 	'comments' => 'Comments',
-	'medias' => 'Medias',
+	'medias' => 'Media',
 	'posts' => 'Posts',
 	'new-messages' => 'New posts !',
 	'new-registers' => 'New users !',
